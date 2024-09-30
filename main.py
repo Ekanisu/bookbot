@@ -4,7 +4,7 @@ def main():
     num_words = get_num_words(text)
     chars_dict = get_chars_dict(text)
     chars_sorted_list = chars_dict_to_sorted_list(chars_dict)
-
+    
     print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document")
     print()
